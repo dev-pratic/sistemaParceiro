@@ -1,0 +1,19 @@
+<?php
+if($gateSistema=="rs"){
+    define("TAB_IXTENSRXELACIONAMENTOS","ITENSRELACIONAMENTOS");
+
+    define("COL_IXRE_IXD","IRE_ID");
+    define("COL_IXRE_IXDITEM","IRE_IDITEM");
+    define("COL_IXRE_IXDITEMRELACIONADO","IRE_IDITEMRELACIONADO");
+    define("COL_IXRE_QXUANTIDADE","IRE_QUANTIDADE");
+    define("COL_IXRE_DATA_INCLUSAO","G32_DATA_INCLUSAO");
+}else if($gateSistema=="petrus"){
+    define("TAB_IXTENSRXELACIONAMENTOS","G32");
+
+    define("COL_IXRE_IXD","G32_ID");
+    define("COL_IXRE_IXDITEM","G6_ID");
+    define("COL_IXRE_IXDITEMRELACIONADO","G6_ID_1");
+    define("COL_IXRE_QXUANTIDADE","G32_QTD");
+    define("COL_IXRE_NXOME","G32_DESCRICAO");
+    define("COL_IXRE_DATA_INCLUSAO","G32_DATA_INCLUSAO");
+}

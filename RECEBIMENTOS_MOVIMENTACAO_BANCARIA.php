@@ -1,0 +1,13 @@
+<?php
+if($gateSistema=="petrus"){
+    define("TAB_RECEBIMENTOS_MOVIMENTACAO_BANCARIA","N43");
+
+    define("COL_N43_ID","N43_ID");
+    define("COL_N43_DATA_RECEBIMENTO","N43_DATA_RECEBIMENTO");
+    define("COL_N43_EMPRESA","S1_ID");
+    define("COL_N43_VALOR","N43_VALOR_RECEBIDO");
+    define("COL_N43_DESCRICAO","N43_DESCRICAO");
+    define("COL_N43_ESTORNADO","N43_ESTORNADO");
+    define("COL_N43_RECEBIMENTOS","N22_ID");
+    define("COL_N43_CXONTA_BXANCARIA","N49_ID");
+}

@@ -1,0 +1,38 @@
+<?php
+$gateSistema = "petrus";
+
+include_once 'CARTEIRAS.php';
+include_once 'CONDICOESDEPAGAMENTO.php';
+include_once 'CONTASBANCARIA.php';
+include_once 'CONTASBANCARIA_B.php';
+include_once 'CREDITO_PENDENTE.php';
+include_once 'DOCUMENTOS_COMPRA.php';
+include_once 'DOCUMENTOS_FISCAL_AVULSO.php';
+include_once 'DOCUMENTOS_FISCAL_TERCEIROS.php';
+include_once 'DOCUMENTOS.php';
+include_once 'DOCUMENTOSITENS_COMPRA.php';
+include_once 'DOCUMENTOSITENS_FISCAL_AVULSO.php';
+include_once 'DOCUMENTOSITENS_FISCAL_TERCEIROS.php';
+include_once 'DOCUMENTOSITENS.php';
+include_once 'DOCUMENTOSDUPLICATAS_PAGAR.php';
+include_once 'DOCUMENTOSDUPLICATASCOMPROVANTESBAIXA.php';
+include_once 'DOCUMENTOSDUPLICATASELENCODECONTAS.php';
+include_once 'DOCUMENTOSDUPLICATASPAGAMENTOS.php';
+include_once 'ELENCODECONTAS.php';
+include_once 'ESPECIESDEEMBALAGEM.php';
+include_once 'ESTADOS.php';
+include_once 'ESTOQUEMOVIMENTACAO.php';
+include_once 'ITENS.php';
+include_once 'ITENSGRUPOSUBGRUPO.php';
+include_once 'ITENSRELACIONAMENTOS.php';
+include_once 'MOVIMENTACAOBANCARIA.php';
+include_once 'MOVIMENTACAOBANCARIAELENCOCONTAS.php';
+include_once 'MUNICIPIOS.php';
+include_once 'PAGAMENTOS.php';
+include_once 'PAGAMENTOS_MOVIMENTACAO_BANCARIA.php';
+include_once 'PARTICIPANTES.php';
+include_once 'PARTICIPANTESATIVIDADESECONOMICA.php';
+include_once 'RECEBIMENTOS_MOVIMENTACAO_BANCARIA.php';
+include_once 'RECEBIMENTOS.php';
+include_once 'REGIMETRIBUTARIO.php';
+include_once 'ITENSUNIDADES.php';

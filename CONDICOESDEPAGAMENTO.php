@@ -1,0 +1,19 @@
+<?php
+if($gateSistema=="rs"){
+    define("TAB_CXONDICOESDEPAGAMENTO","CONDICOESDEPAGAMENTO");
+
+    define("COL_CXDP_IXD","CDP_ID");
+    define("COL_CXDP_NXOME","CDP_NOME"); 
+    define("COL_CXPF_FXORMA","CPF_FORMA"); 
+    define("COL_CXDP_IXDTIPODEOPERACAOSTATUS","CDP_IDTIPODEOPERACAOSTATUS"); 
+    define("COL_CXDP_DXATAMODIFICACAO","CDP_DATAMODIFICACAO"); 
+    define("COL_CXPF_IXDCARTEIRA","CPF_IDCARTEIRA"); 
+}else if($gateSistema=="petrus"){
+    define("TAB_CXONDICOESDEPAGAMENTO","N47");
+
+    define("COL_CXDP_IXD","N47_ID"); 
+    define("COL_CXDP_NXOME","N47_DESCRICAO"); 
+    define("COL_CXPF_FXORMA","N47_PARCELAS"); 
+    define("COL_CXDP_DXATAMODIFICACAO","N47_DATA_INCLUSAO");
+    define("COL_CXPF_IXDCARTEIRA","N49_ID"); 
+}

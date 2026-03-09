@@ -1,0 +1,19 @@
+<?php
+if($gateSistema=="petrus"){
+    define("TAB_RECEBIMENTOS","N22");
+
+    define("COL_N22_ID","N22_ID");
+    define("COL_N22_DATA_RECEBIMENTO","N22_DATA_BAIXA");
+    define("COL_N22_EMPRESA","S1_ID");
+    define("COL_N22_VALOR","N22_VALOR_TITULO");
+    define("COL_N22_CXONTA_BXANCARIA","N49_ID");
+    define("COL_N22_DATA_VENCIMENTO","N22_DATA_VENCIMENTO");
+    define("COL_N22_RECEBIMENTOS_MOVIMENTACAO_BANCARIA","N43_ID");
+    define("COL_N22_VALOR_RECEBIDO","N22_VALOR_RECEBIDO");
+    define("COL_N22_STATUS","N22_STATUS");
+    define("COL_N22_DESCRICAO","N22_DESCRICAO");
+    define("COL_N22_NOME","N22_NOME");
+    define("COL_N22_NUMERO_DOCUMENTO","N22_NUMERO_DOCUMENTO");
+    define("COL_N22_VALOR_SALDO","N22_VALOR_SALDO");    
+    define("COL_N22_TIPO","N22_TIPO");
+}

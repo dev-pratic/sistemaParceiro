@@ -1,0 +1,12 @@
+<?php
+if($gateSistema=="rs"){
+    define("TAB_PAG_DXOCUMENTOSDUPLICATASPXAGAMENTOS","DOCUMENTOSDUPLICATASPAGAMENTOS");
+
+    define("COL_PAG_DXPA_IXDCOMPROVANTE","DPA_IDCOMPROVANTE");
+    define("COL_PAG_DXPA_IXD","DPA_ID");
+}else if($gateSistema=="petrus"){
+    define("TAB_PAG_DXOCUMENTOSDUPLICATASPXAGAMENTOS","N37");
+
+    define("COL_PAG_DXPA_IXDCOMPROVANTE","N37_ID");
+    define("COL_PAG_DXPA_IXD","N37_ID");
+}
