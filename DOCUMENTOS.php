@@ -53,6 +53,7 @@ if($gateSistema=="rs"){
     define("COL_VEN_DXOC_DXOC_IDTRANSPORTE","J2_ID");
     define("COL_VEN_DXOC_QUANTIDADE","R13_VOLUMES");
     define("COL_VEN_DXOC_JXUSTIFICATIVA","R13_MOTIVO_CANCELAMENTO");
+    define("COL_VEN_DXOC_FXRETE","R13_FRETE");
     define("EXP_DOC_1","R13.R13_ID");
     define("DOC_NRNFE","R13_NF");
     define("COL_VEN_DXOC_SUBTOTAL","R13_SUBTOTAL");
