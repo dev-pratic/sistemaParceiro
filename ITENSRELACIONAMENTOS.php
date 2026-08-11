@@ -12,6 +12,7 @@ if($gateSistema=="rs"){
 
     define("COL_IXRE_IXD","G32_ID");
     define("COL_IXRE_IXDITEM","G6_ID");
+    define("COL_IXRE_REXF","G32_PRODUTO");
     define("COL_IXRE_IXDITEMRELACIONADO","G6_ID_1");
     define("COL_IXRE_QXUANTIDADE","G32_QTD");
     define("COL_IXRE_NXOME","G32_DESCRICAO");
