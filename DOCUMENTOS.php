@@ -59,6 +59,18 @@ if($gateSistema=="rs"){
     define("COL_VEN_DXOC_SUBTOTAL","R13_SUBTOTAL");
     define("COL_VEN_DXOC_VALOR_TOTAL","R13_VALOR_TOTAL");
 
+    #EXCLUIR SE DER ERROS
+    #define("DOC_CXUBAGEM","R13_CUBAGEM");
+    define("DOC_OXBSERVACAO","R13_OBS");
+    define("DOC_DXESTINO","R13_DESTINO");
+    #define("DOC_TXIPO","R13_TIPO");
+    define("DOC_VXALOR_IXPI","R13_VALOR_IPI");
+    define("DOC_MXARGEM","R13_MARGEM");
+    define("DOC_MXARGEM_VXALOR","R13_VALOR_MARGEM");
+    define("DOC_TXRANSPORTADORA","R13_NOME_2");
+    define("DOC_SXITUACAO","R13_SITUACAO");
+    #FIM - EXCLUIR SE DER ERROS
+
     $COL_DXOC_IXDTIPODEOPERACAOSTATUS = array(
         30 => "Novo",
         31 => "Faturado",
