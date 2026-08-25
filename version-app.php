@@ -1,9 +1,10 @@
 <?php
-$_VERSION = '1.5.2';
+$_VERSION = '1.5.3';
 
 /*
 HISTÓRICO
 
+25/08/2026 AS 15:27:40 - 1.5.3 - BRANCH: update_gabriel_20260825_151859
 25/08/2026 AS 15:18:02 - 1.5.2 - BRANCH: update_gabriel_20260819_094027
 19/08/2026 AS 09:26:10 - 1.5.1 - BRANCH: update_gabriel_20260811_135842
 11/08/2026 AS 13:57:36 - 1.5.0 - BRANCH: update_gabriel_20260811_135711
