@@ -83,6 +83,7 @@ if($gateSistema=="rs"){
         39 =>  "Aguardando alteração", 
         40 =>  "Agendamento", 
         41 =>  "Restrição de Data",
+        42 =>  "Bloqueado",
 
         258 => 258
     );
