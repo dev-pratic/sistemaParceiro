@@ -76,6 +76,14 @@ if($gateSistema=="rs"){
         31 => "Faturado",
         32 => "Liberado",
         34 => "Cancelado",
+        35 => "Em análise",
+        36 => "Reprovado",
+        37 =>  "Aguardando limite", 
+        38 =>  "Aguardando depósito", 
+        39 =>  "Aguardando alteração", 
+        40 =>  "Agendamento", 
+        41 =>  "Restrição de Data",
+
         258 => 258
     );
 }
